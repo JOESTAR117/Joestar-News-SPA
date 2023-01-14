@@ -1,3 +1,8 @@
 export default function Home(){
-    return <h1>Ola my friend</h1>
+    return (
+    <Navbar />
+    <h1>Ola my friend</h1>
+
+    )
+    
 }
