@@ -1,19 +1,19 @@
-import logo from "../../images/LogoMakr-65SwHJ.png"
-import "./Navbar.css"
+import logo from "../../images/LogoMakr-65SwHJ.png";
+import { Button, InputSpace, Img_Logo, Nav } from "./NavbarStyled";
 
 export function Navbar() {
-
   return (
     <>
-      <nav>
-        <div className="input-search-space">
-            <i className="bi bi-search"></i>
-            <input type="text" placeholder="Pesquise por um título"/>
-        </div>
-        <img src= {logo} alt="Logo Joestar-news" />
+      <Nav>
+        <InputSpace>
+          <i className="bi bi-search"></i>
+          <input type="text" placeholder="Pesquise por um título" />
+        </InputSpace>
 
-        <button>Entrar</button>
-      </nav>
+        <Img_Logo src={logo} alt="Logo Joestar-news" />
+        
+        <Button>Entrar</Button>
+      </Nav>
     </>
   );
 }
