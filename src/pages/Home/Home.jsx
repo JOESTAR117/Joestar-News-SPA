@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <section>
       <Navbar />
-      <h1>Ola my friend</h1>
+      <h1></h1>
     </section>
   );
 }
